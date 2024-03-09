@@ -310,7 +310,7 @@ a {
   bottom: 0;
 }
 .section-wrapper .skill-percentage:nth-child(1)::before {
-  width: 80%;
+  width: 70%;
   -webkit-animation: skill_1 0.6s ease;
           animation: skill_1 0.6s ease;
 }
@@ -335,12 +335,12 @@ a {
           animation: skill_5 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(6)::before {
-  width: 70%;
+  width: 40%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(7)::before {
-  width: 70%;
+  width: 60%;
   -webkit-animation: skill_6 0.6s ease;
           animation: skill_6 0.6s ease;
 }
@@ -350,7 +350,7 @@ a {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -359,7 +359,7 @@ a {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 70%;
   }
 }
 @-webkit-keyframes skill_2 {
@@ -431,7 +431,7 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 40%;
   }
 }
 @keyframes skill_6 {
@@ -439,7 +439,7 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 40%;
   }
 }
 @-webkit-keyframes skill_7 {
@@ -447,7 +447,7 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 60%;
   }
 }
 @keyframes skill_7 {
@@ -455,6 +455,6 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 60%;
   }
 }
