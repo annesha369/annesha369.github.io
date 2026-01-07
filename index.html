@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annesha Panda | AI/ML Engineer</title>
+    <meta name="description"
+        content="Portfolio of Annesha Panda, an aspiring AI/ML Engineer skilled in Python, TensorFlow, and Computer Vision.">
+    <link rel="icon" type="image/x-icon" href="prifilepic.jpeg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <div id="canvas-container">
+        <canvas id="bg-canvas"></canvas>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">AP.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h2 class="greeting">Hello, I'm</h2>
+                <h1 class="name">Annesha Panda</h1>
+                <h3 class="role">Aspiring AI/ML Engineer</h3>
+                <p class="hero-desc">Transforming data into intelligence. Passionate about Deep Learning, Computer
+                    Vision, and Creative coding.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="resume.docx" download class="btn secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="ai-orb"></div>
+                    <img src="prifilepic.jpeg" alt="Annesha Panda" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I am a B.Tech student in Computer Science & Engineering (AI & ML) at Dr. B. C. Roy Engineering
+                        College, Durgapur.
+                        My journey involves deep diving into <strong>Machine Learning, Deep Learning, and Computer
+                            Vision</strong>.
+                    </p>
+                    <p>
+                        I have hands-on experience building AI-based systems like resume screeners and crop health
+                        monitoring tools.
+                        I am actively seeking entry-level roles where I can leverage my Python and TensorFlow skills to
+                        solve real-world problems.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years of Coding</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Internships</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java (Basic)</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linear Regression</span>
+                        <span class="skill-tag">Logistic Regression</span>
+                        <span class="skill-tag">Naïve Bayes</span>
+                        <span class="skill-tag">SVM</span>
+                        <span class="skill-tag">KNN</span>
+                        <span class="skill-tag">K-Means</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Deep Learning & CV</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">CNN</span>
+                        <span class="skill-tag">Transfer Learning</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Haar Cascade</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Analysis & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Google Colab</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Jun 2025 - Jul 2025</div>
+                    <div class="timeline-content">
+                        <h3>AI & ML Intern</h3>
+                        <h4>Central Tool Room & Training Centre (CTTC), Bhubaneswar</h4>
+                        <ul>
+                            <li>Implemented ML algorithms (Linear Regression, SVM, KNN, etc.) with performance
+                                evaluation.</li>
+                            <li>Gained hands-on experience in computer vision (image processing, object detection) using
+                                OpenCV.</li>
+                            <li>Developed a Face Recognition Attendance System using OpenCV and Haar Cascade.</li>
+                            <li>Trained in Python, NumPy, Pandas, Matplotlib, and Seaborn for data visualization.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb 2025 - Mar 2025</div>
+                    <div class="timeline-content">
+                        <h3>AI Intern</h3>
+                        <h4>Edunet Foundation</h4>
+                        <ul>
+                            <li>Developed an AI-based resume screening system to automate candidate ranking using TF-IDF
+                                and Cosine Similarity.</li>
+                            <li>Built an interactive web application using Streamlit for real-time resume analysis.</li>
+                            <li>Collaborated remotely, delivering daily progress updates and weekly presentations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AI-Powered Crop Health Monitoring</h3>
+                        <p class="project-role">Final Year Project</p>
+                        <p>Deep learning system for sugarcane leaf disease detection using transfer learning (MobileNet,
+                            ResNet, DenseNet).</p>
+                        <div class="project-tech">
+                            <span>TensorFlow</span>
+                            <span>Keras</span>
+                            <span>Python</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <a href="#" class="btn secondary small">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Resume Screening System</h3>
+                        <p class="project-role">Internship Project</p>
+                        <p>Automated candidate ranking tool using NLP techniques (TF-IDF, Cosine Similarity) and
+                            Streamlit web interface.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Streamlit</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn secondary small">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Face Recognition Attendance System</h3>
+                        <p class="project-role">Internship Project</p>
+                        <p>Real-time face detection and recognition system using OpenCV and Haar Cascade Classifier.</p>
+                        <div class="project-tech">
+                            <span>OpenCV</span>
+                            <span>Python</span>
+                            <span>Haar Cascade</span>
+                        </div>
+                        <a href="#" class="btn secondary small">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <h3>B.Tech in Computer Science & Engineering (AI & ML)</h3>
+                    <h4>Dr. B. C. Roy Engineering College, Durgapur</h4>
+                    <p class="edu-year">2022 – Present</p>
+                    <p class="edu-grade">CGPA: 7.61</p>
+                </div>
+                <div class="edu-card">
+                    <h3>Higher Secondary (Class XII)</h3>
+                    <h4>Kharagpur South Side Girls High School</h4>
+                    <p class="edu-year">2021 – 2022</p>
+                    <p class="edu-grade">Percentage: 78.6%</p>
+                </div>
+                <div class="edu-card">
+                    <h3>Secondary (Class X)</h3>
+                    <h4>Kharagpur South Side Girls High School</h4>
+                    <p class="edu-year">2019 – 2020</p>
+                    <p class="edu-grade">Percentage: 84.14%</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <p class="contact-text">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    I'll try my best to get back to you!
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:anneshapanda58@gmail.com" class="contact-item">
+                        <span class="icon">📧</span>
+                        anneshapanda58@gmail.com
+                    </a>
+                    <a href="#" class="contact-item">
+                        <span class="icon">🔗</span>
+                        LinkedIn / GitHub: annesha369
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Annesha Panda. Built with <span style="color: var(--accent);">Intelligence</span>.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
